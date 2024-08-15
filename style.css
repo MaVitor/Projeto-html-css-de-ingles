@@ -36,9 +36,12 @@ nav ul li{
     margin-right: 20px;
     font-weight: 550;
 }
+
+li a :hover{
+    background-color: #d30000;
+}
 .logo{
     font-size: 24px;
-
 }
 .hero{
     width: 100%;
@@ -87,99 +90,12 @@ nav ul li{
     color: #fff;
     cursor: pointer;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-body{
-    width: 100%;
-    min-height: 100vh;
-    background: #f8f8f8;
-}
-
-header{
-    height: 60px;
-    width: 100%;
-    background: #222121;
-    color: #fff;
-    display: flex;
-    align-items: center;
-}
-.container{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .logo{
     width: 35%;
     margin: 1 auto;
     align-items: center;
     justify-content: center;
-    padding-top: 15px;
-}
-
-nav ul li{
-    list-style: none;
-    display: inline;
-    margin-right: 20px;
-    font-weight: 550;
-}
-.logo{
-    font-size: 24px;
-
-}
-.hero{
-    width: 100%;
-    height: auto;
-    background: url(comida.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: #ff0000;
-    text-align: center;
-    padding: 140px 0;
-}
-
-.hero h2{
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-.hero p{
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.search-box{
-    max-width: 550px;
-    margin: 15px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.search-box input{
-    width: 70%;
-    padding: 10px;
-    outline: none;
-    border: 0;
-    border-radius: 5px 0 0 5px;
-    font-size: 1rem;
-    border: 1px solid rgb(red, green, blue)
-}
-.search-box button{
-    padding: 10px 20px;
-    outline: none;
-    border: 0;
-    border-radius: 0px 5px 5px 0px;
-    font-size: 1rem;
-    background: rgb(255, 0, 0);
-    color: #fff;
-    cursor: pointer;
+    padding-top: 14px;
 }
 
 /*................. CARDS ................*/
