@@ -31,6 +31,7 @@ nav ul li{
     list-style: none;
     display: inline;
     margin-right: 20px;
+    font-weight: 550;
 }
 .logo{
     font-size: 24px;
@@ -38,6 +39,10 @@ nav ul li{
 }
 .hero{
     width: 100%;
-    height: 4000px;
+    height: 270px;
     background: url(comida.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
