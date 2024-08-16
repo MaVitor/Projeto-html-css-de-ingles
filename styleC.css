@@ -173,3 +173,11 @@ li a :hover{
 .language-switch:hover {
     background-color: #d30000;
 }
+
+footer {
+    background: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    margin-top: auto;
+}

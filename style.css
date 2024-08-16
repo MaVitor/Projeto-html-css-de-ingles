@@ -148,7 +148,6 @@ nav ul li a:hover {
     padding-top: 14px;
 }
 
-/* Estilos dos cards de receitas */
 .recipes {
     padding: 50px 0;
 }
@@ -201,17 +200,13 @@ nav ul li a:hover {
     padding: 15px 0;
     cursor: pointer;
 }
-
-/* Estilos do rodapé */
 footer {
     background: #333;
     padding: 20px 0;
     color: #fff;
     text-align: center;
-    margin-top: auto; /* Faz com que o footer vá para o final da página */
+    margin-top: auto;
 }
-
-/* Estilos da seção sobre nós */
 .about-us {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -254,8 +249,6 @@ footer {
 .info p span {
     font-weight: bold;
 }
-
-/* Estilos do formulário de contato */
 .contact-form-container {
     max-width: 600px;
     margin: 100px auto;
