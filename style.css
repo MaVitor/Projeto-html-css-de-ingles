@@ -91,7 +91,7 @@ nav ul li a:hover {
 .hero {
     width: 100%;
     height: auto;
-    background: url(comida.jpeg);
+    background: url(images/comida.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -310,4 +310,18 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #a60000;
+}
+
+.language-switch {
+    color: #fff;
+    background: #222121;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.language-switch:hover {
+    background-color: #d30000;
 }

@@ -50,7 +50,7 @@ li a :hover{
 .hero{
     width: 100%;
     height: auto;
-    background: url(coxinha.jpg);
+    background: url(images/coxinha.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -160,3 +160,16 @@ li a :hover{
     margin-top: 40px;
 }
 
+.language-switch {
+    color: #fff;
+    background: #222121;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.language-switch:hover {
+    background-color: #d30000;
+}
