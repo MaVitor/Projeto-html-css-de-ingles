@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #f8f8f8;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background: #222121;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list{
+    display: none;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-weight: 550;
+}
+
+li a :hover{
+    background-color: #d30000;
+}
+.logo{
+    font-size: 24px;
+}
+.hero{
+    width: 100%;
+    height: auto;
+    background: url(coxinha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ff0000;
+    text-align: center;
+    padding: 140px 0;
+    margin-bottom: 20px;
+}
+
+.hero h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.hero p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.search-box{
+    max-width: 550px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-box input{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    border: 1px solid rgb(red, green, blue)
+}
+.search-box button{
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1rem;
+    background: rgb(255, 0, 0);
+    color: #fff;
+    cursor: pointer;
+}
+.logo{
+    width: 35%;
+    margin: 1 auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 14px;
+}
+
+.recipe-coxinha {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.recipe-coxinha h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.recipe-coxinha p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.recipe-card-coxinha {
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden; 
+}
+
+.recipe-card-coxinha ul {
+    list-style: disc inside;
+    padding-left: 20px; 
+    margin: 0; 
+}
+
+.recipe-card-coxinha li {
+    margin: 8px 0; 
+    font-size: 16px;
+}
+
+.preparation-card-coxinha {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preparation-card-coxinha p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.recipe-section-coxinha h2 {
+    color: rgb(255, 0, 0);
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
