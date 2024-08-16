@@ -231,3 +231,7 @@ footer{
     font-size: 18px;
     margin-bottom: 8px;
 }
+
+.info p span {
+    font-weight: bold;
+}
