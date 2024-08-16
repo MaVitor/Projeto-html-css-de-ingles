@@ -235,3 +235,8 @@ footer{
 .info p span {
     font-weight: bold;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
