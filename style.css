@@ -208,24 +208,7 @@ footer {
     padding: 20px 0;
     color: #fff;
     text-align: center;
-}
-
-/* Menu de navegação móvel */
-.menu-icon {
-    font-size: 24px;
-    padding: 20px;
-    text-align: right;
-    cursor: pointer;
-    display: block;
-}
-
-@media only screen and (min-width: 768px) {
-    .menu-icon {
-        display: none;
-    }
-    .nav-list {
-        display: block;
-    }
+    margin-top: auto; /* Faz com que o footer vá para o final da página */
 }
 
 /* Estilos da seção sobre nós */
@@ -272,12 +255,6 @@ footer {
     font-weight: bold;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
 /* Estilos do formulário de contato */
 .contact-form-container {
     max-width: 600px;
@@ -287,7 +264,6 @@ footer {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    flex: 1; /* Faz o container flexível para preencher o espaço disponível */
 }
 
 .contact-form-container h1 {
