@@ -1,3 +1,4 @@
+/* Estilos gerais */
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@ body{
     background: #f8f8f8;
 }
 
+/* Cabeçalho */
 header{
     height: 60px;
     width: 100%;
@@ -21,6 +23,9 @@ header{
     color: #fff;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .container{
     width: 90%;
@@ -30,10 +35,10 @@ header{
     justify-content: space-between;
 }
 
+/* Menu de navegação */
 .nav-list{
     display: none;
 }
-
 nav ul li{
     list-style: none;
     display: inline;
@@ -41,12 +46,45 @@ nav ul li{
     font-weight: 550;
 }
 
-li a :hover{
-    background-color: #d30000;
+nav ul li a{
+    color: #fff; /* Cor do texto do link */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para hover */
 }
-.logo{
+
+nav ul li a:hover{
+    background-color: #d30000; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+    padding: 5px; /* Espaçamento adicional para o efeito de hover */
+    border-radius: 4px; /* Borda arredondada opcional */
+}
+
+.menu-icon {
     font-size: 24px;
+    padding: 20px;
+    text-align: right;
+    cursor: pointer;
+    display: block;
 }
+
+@media only screen and (min-width: 768px){
+    .menu-icon{
+        display: none;
+    }
+    .nav-list{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero h2{
+        font-size: 28px;
+    }
+    .hero p{
+        font-size: 15px;
+    }
+}
+
+/* Estilos da hero section */
 .hero{
     width: 100%;
     height: auto;
@@ -103,8 +141,7 @@ li a :hover{
     padding-top: 14px;
 }
 
-/*................. CARDS ................*/
-
+/* Estilos dos cards de receitas */
 .recipes{
     padding: 50px 0;
 }
@@ -158,6 +195,7 @@ li a :hover{
     cursor: pointer;
 }
 
+/* Estilos do rodapé */
 footer{
     background: #333;
     padding: 20px 0;
@@ -165,6 +203,7 @@ footer{
     text-align: center;
 }
 
+/* Menu de navegação móvel */
 .menu-icon {
     font-size: 24px;
     padding: 20px;
@@ -182,17 +221,7 @@ footer{
     }
 }
 
-@media only screen and (max-width: 768px){
-    .hero h2{
-        font-size: 28px;
-    }
-    .hero p{
-        font-size: 15px;
-    }
-}
-
-/* About us styles */
-
+/* Estilos da seção sobre nós */
 .about-us {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -235,13 +264,14 @@ footer{
 .info p span {
     font-weight: bold;
 }
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-  }
-/* Contato style */
+}
 
+/* Estilos do formulário de contato */
 .contact-form-container {
     max-width: 600px;
     margin: 100px auto;
