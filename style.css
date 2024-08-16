@@ -21,6 +21,9 @@ header{
     color: #fff;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 .container{
     width: 90%;
@@ -148,3 +151,45 @@ li a :hover{
     text-align: center;
     text-decoration: none;
 }
+
+/* about us */
+
+.about-us {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 100px 20px;
+    background-color: #f8f8f8;
+    justify-content: center;
+}
+
+.profile-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-pic-container {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #222121;
+}
+
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
